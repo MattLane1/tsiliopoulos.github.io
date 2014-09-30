@@ -1,0 +1,73 @@
+﻿/* 
+   ------------------------------------------------------------------------------
+    Global Styles
+   ------------------------------------------------------------------------------		
+*/
+
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+
+/* 
+   ------------------------------------------------------------------------------
+    NAV BAR GLYPHISH ICONS
+   ------------------------------------------------------------------------------		
+*/
+
+.nav-glyphish .ui-btn { padding-top: 40px !important; }
+.nav-glyphish .ui-btn:after { width: 30px!important; height: 30px!important; margin-left: -15px !important; box-shadow: none!important; -moz-box-shadow: none!important; -webkit-box-shadow: none!important; -webkit-border-radius: 0 !important; border-radius: 0 !important; }
+#site-home:after { background:  url("../img/glyphish-icons/131-tower.png") 50% 50% no-repeat; background-size: contain; }
+#course-comp2068:after { background:  url("../img/glyphish-icons/96-book.png") 50% 50% no-repeat; background-size: contain;  }
+#course-comp397:after { background:  url("../img/glyphish-icons/116-controller.png") 50% 50% no-repeat;  background-size:contain; }
+#site-contact:after { background:  url("../img/glyphish-icons/75-phone.png") 50% 50% no-repeat;  background-size: contain; }
+
+/*-----------------------------------------------------------------------------------*/
+/* TOP LOGO IMG WRAP STYLES
+/*-----------------------------------------------------------------------------------*/
+
+.logo-wrap {padding:50px 0 143px 0;}
+
+.logo-wrap h1 {
+    width:300px;
+    height:300px;
+    color:#fff;
+    text-align:center;
+    font-family: 'Black Ops One';
+    font-size: 38px;
+    background:url(../img/logo.png) no-repeat;
+    line-height:300px;
+    display:table;
+    margin: 0 auto;
+    text-transform:uppercase;
+    font-weight:500;
+}
+
+.logo-wrap h4 {
+    color:#000;
+    line-height:35px;
+    text-transform:uppercase;
+    margin: 25px auto 0px;
+
+    background:#fff;
+    text-align:center;
+    display:table;
+    padding:7px 20px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/* PAGE STYLES
+/*-----------------------------------------------------------------------------------*/
+
+#home-content { background:#4aace5;background-size:cover;}
+
+.course-header h3 {
+    font-family: 'Black Ops One';
+    line-height: 35px;
+    color: white;
+}
+
+.course-header h4 {
+    font-weight: bold;
+    color: white;
+}
