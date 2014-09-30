@@ -18,7 +18,7 @@
 */
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 a {color:#e3007b;}
@@ -70,7 +70,7 @@ p {
 /*-----------------------------------------------------------------------------------*/
 
 .cover {background:url(../images/overlay.png);height:100%;width:100%;}
-#top { background:#242424 url(../demo/top.jpg) no-repeat;background-size:cover;}
+#top { background:#4aace5;background-size:cover;}
 #services   { background:#fff;padding:80px 0 65px 0;position:relative;}
 #portfolio  { background:#181818;padding:80px 0;position:relative;}
 #works      { background:#fff;padding:80px 0;position:relative;}
@@ -105,11 +105,11 @@ p {
 }
 
 .navigation li a:hover {
-    color:#e3007b;
+    color: #4aace5;
 }
 
 .navigation .current a {
-    color: #e3007b;
+    color: #4aace5;
 }
 
 .current {}
@@ -134,7 +134,7 @@ p {
     border: 1px solid #181818;
     height: 34px;
     margin:10px auto ;
-    color:#555 !important;
+    color:#4aace5 !important;
 }
 }
 
@@ -149,6 +149,8 @@ p {
     height:300px;
     color:#fff;
     text-align:center;
+    font-family: 'Black Ops One';
+    font-size: 38px;
     background:url(../images/logo.png) no-repeat;
     line-height:300px;
     display:table;
